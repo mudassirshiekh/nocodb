@@ -1,7 +1,9 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { type UserType, ViewTypes } from 'nocodb-sdk';
+// This service is overwritten entirely in the cloud and does not extend there.
+// As a result, it refers to services from OSS to avoid type mismatches.
+import { getCommandPaletteForUserWorkspace } from 'src/helpers/commandPaletteHelpers';
 import { deserializeJSON } from '~/utils/serialize';
-import { getCommandPaletteForUserWorkspace } from '~/helpers/commandPaletteHelpers';
 
 const viewTypeAlias: Record<number, string> = {
   [ViewTypes.GRID]: 'grid',
