@@ -91,6 +91,7 @@ Auto-upstall does the following : 🕊
 
 
 ## Other Methods
+#By Mudassir Alam
 
 > Binaries are only for quick testing locally.
 
