@@ -5,7 +5,7 @@ import DiscordPluginConfig from '~/plugins/discord';
 import TwilioWhatsappPluginConfig from '~/plugins/twilioWhatsapp';
 import TwilioPluginConfig from '~/plugins/twilio';
 import S3PluginConfig from '~/plugins/s3';
-import MinioPluginConfig from '~/plugins/mino';
+import MinioPluginConfig from '~/plugins/minio';
 import GcsPluginConfig from '~/plugins/gcs';
 import MattermostPluginConfig from '~/plugins/mattermost';
 import SpacesPluginConfig from '~/plugins/spaces';
